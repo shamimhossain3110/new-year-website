@@ -1,7 +1,135 @@
-.banner-title {
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
 }
-.banner-pic{
-  width: 1320px;
-height: 600px;
+
+/* banner section work */
+.banner {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  margin-left: 13%;
+  margin-right: 13%;
+  border-radius: 16px;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+}
+
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 16px;
+}
+
+/* discount section  */
+.discount {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 120px;
+}
+
+.discount-holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 48px;
+}
+
+.discount-categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 25px;
+}
+
+.new-year-pic {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/* midnight party section  */
+
+.midnight-party {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 150px;
+  margin-left: 13%;
+  margin-right: 13%;
+  border-radius: 16px;
+}
+
+.midnight-party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  padding-top: 126px;
+  padding-left: 126px;
+  padding-bottom: 24px;
+}
+
+.midnight-party_description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding-left: 126px;
+  padding-bottom: 48px;
+}
+
+.midnight-join-btn {
+  margin-left: 126px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 12px;
+}
+.midnight-party {
+  display: flex;
+}
+
+.midnight-pic {
+  margin-top: 95px;
+  margin-left: 95px;
+}
+
+
+/* address section  */
+
+.address-section {
+  background: fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.address-titles {
+  color: red;
 }
